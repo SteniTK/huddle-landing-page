@@ -42,12 +42,12 @@ p {
 }
 
 button {
-    border-radius:20%/60%;
+    border-radius:20%/80%;
     border: none;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);;
-    width: 25%;
+    width: 40%;
     min-width: 100px;
-    height: 13%;
+    height: 10%;
     font-family: 'Open Sans';
     font-weight: 400px;
     font-size: 1.75em;
@@ -55,6 +55,10 @@ button {
     background-color: white;
     color: hsl(257, 40%, 49%);
     padding: 10px 10px 10px 10px;
+}
+
+button:hover{
+    transform: translate(0px, -5px);
 }
 
 footer {
@@ -71,7 +75,8 @@ footer {
     color: white;
     margin: 5px 5px;
     font-size : 2em;
-    height: 55px;
-    width: 55px;
-    line-height: 55px!important; /* icons have line height 1 px default */
+    height: 40px;
+    width: 40px;
+    line-height: 40px!important; /* icons have line height 1 px default */
+    margin-bottom: 10px;
 }
