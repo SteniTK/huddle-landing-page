@@ -4,6 +4,7 @@ html {
     background-repeat: no-repeat; 
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
     font-size: 62.5%; /* font-size 1em = 10px on default browser settings */ 
 }
 
@@ -19,23 +20,24 @@ header {
 }
 
 .two-column img {
-    width: 55%;
+    width: 75%;
     margin : 20px;
+    flex: 1 0 55%;
 }
 
 main {
-    margin : 10px;
+    margin : 4em;
 }
 
 h1 {
     font-family: 'Poppins';
     color: white;
-    font-weight: 700px; 
+    font-weight: 700; 
 }
 
 p {
     font-family :'Open Sans';
-    font-weight: 400px;
+    font-weight: 400;
     color: white;
     width : 85%;
     font-size : 1.5em;
@@ -45,16 +47,13 @@ button {
     border-radius:20%/80%;
     border: none;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);;
-    width: 40%;
-    min-width: 100px;
-    height: 10%;
     font-family: 'Open Sans';
-    font-weight: 400px;
-    font-size: 1.75em;
+    font-weight: 400;
+    font-size: 1.5em;
     text-align: center;
     background-color: white;
     color: hsl(257, 40%, 49%);
-    padding: 10px 10px 10px 10px;
+    padding: 1em 4em;
 }
 
 button:hover{
