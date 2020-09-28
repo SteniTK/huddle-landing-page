@@ -23,6 +23,7 @@ header {
     width: 75%;
     margin : 20px;
     flex: 1 0 55%;
+    min-width: 500px;
 }
 
 main {
@@ -78,4 +79,19 @@ footer {
     width: 40px;
     line-height: 40px!important; /* icons have line height 1 px default */
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width:800px) {
+    
+.two-column {
+    display: flex;
+    flex-direction: column;
+    margin-left : 4%;
+}
+
+.two-column img {
+    width: 75%;
+    margin : 20px;
+    min-width: auto;
+ }
 }
